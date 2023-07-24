@@ -72,6 +72,7 @@ def report_csv():
     return report_csv_path
     exit()
 
+# Returns common_column when called
 def common_column():
     search_column = api_options.common_column
     return search_column
